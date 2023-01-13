@@ -1,14 +1,3 @@
-# dart_chromecast
-Dart package to play videos to a chromecast device
-
-**This package is currently under development and the API can change completely at some point. Use at your own risk.**
-
-Simplified port of https://github.com/thibauts/node-castv2-client.
-
-Update 0.2.0: added MDNS finder, you can now omit the --host parameter and it will ask you which chromecast to use
-
----
-
 ### Find the IP address of your chromecast on mac OS
 
 This is the way I found the IP address of my ChromeCast on my Mac. This is not guaranteed to work for everyone, 
@@ -23,10 +12,6 @@ Copy the instance name
 Copy the name (without the port) directly after the text '<IntanceName> can be reached at '...
 
 `$ dns-sd -Gv4v6 <Paste>`
-
----
-
-See https://github.com/terrabythia/flutter_chromecast_example for an example implementation in Flutter of both the flutter_mdns_plugin and this repository.
 
 ---
 
